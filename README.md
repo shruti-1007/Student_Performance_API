@@ -43,7 +43,8 @@ pip install -r requirements.txt
 ```bash
 uvicorn app.app:app --reload
 ```
-
+5. Open http://localhost:8000.
+--------
 ### Running with Docker
 1. Build the Docker image:
 ```bash
@@ -54,7 +55,7 @@ docker build -t student_performance_api .
 docker run -d -p 8000:8000 --env-file .env student_performance_api
 ```
 3. Open http://localhost:8000.
-
+--------
 ### Testing
 ```bash
  $env:PYTHONPATH = "."                  
