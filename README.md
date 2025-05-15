@@ -25,6 +25,7 @@ A FastAPI-based service that predicts student performance using a machine learni
   "Sleep_Hours": 7.0,
   "Sample_Question_Papers_Practiced": 10
 }
+```
 ## How to Run the Project
 
 ### Prerequisites
